@@ -37,6 +37,9 @@ class MainViewController: UIViewController {
         viewModel.startFetch()
     }
     
+    @IBAction func errorAction(_ sender: Any) {
+        viewModel.error()
+    }
     
 }
 
